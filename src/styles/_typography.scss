@@ -1,0 +1,61 @@
+body {
+	font-family: $primary-font, sans-serif;
+	font-size: 1.4rem;
+	font-weight: 400;
+	line-height: 19px;
+	font-style: normal;
+	color: $primary-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: $secondary-font, sans-serif;
+}
+
+h1 {
+	font-size: 3.2rem;
+	line-height: 1.4;
+	font-weight: 600;
+}
+
+h2 {
+	font-size: 2.6rem;
+	line-height: 39px;
+	font-weight: 600;
+}
+
+h3 {
+	font-size: 2.2rem;
+	line-height: 33px;
+	font-weight: 600;
+}
+
+h4 {
+	font-size: 1.8rem;
+	line-height: 27px;
+	font-weight: 600;
+}
+
+h5 {
+	font-size: 1.5rem;
+	line-height: 22px;
+	font-weight: 500;
+}
+
+h6 {
+	font-size: 1.2rem;
+	line-height: 18px;
+	font-weight: 600;
+}
+
+input, select, button {
+	font-family: $secondary-font;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 1.5rem;
+	line-height: 22px;
+}

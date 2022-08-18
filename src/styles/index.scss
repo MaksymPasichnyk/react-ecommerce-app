@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500;600;700&display=swap");
+@import "./reset";
+@import "./variables";
+@import "./typography";
+
+.link {
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 16px;
+  color: $secondary-color;
+	text-decoration: none;
+}
+
+.text {
+	font-size: 1.2rem;
+	line-height: 16px;
+}
+
+.flex {
+	display: flex;
+	flex-direction: row;
+}
+
+.justify-between {
+	justify-content: space-between;
+}
+
+.flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+input,
+select {
+	background-color: transparent;
+	border: none;
+
+	&:focus-visible {
+		outline: none;
+	}
+}

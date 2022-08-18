@@ -1,0 +1,26 @@
+@import "../../styles/variables";
+
+.user-action {
+	display: flex;
+	gap: 34px;
+
+	&__btn {
+		width: 24px;
+		height: 24px;
+		font-size: 2.4rem;
+		position: relative;
+	}
+
+	.order-quantity {
+		position: absolute;
+		top: 50%;
+		left: -25%;
+		font-size: 1rem;
+		color: white;
+		background-color: $orange-color;
+		width: 16px;
+		height: 16px;
+		border-radius: 50%;
+
+	}
+}

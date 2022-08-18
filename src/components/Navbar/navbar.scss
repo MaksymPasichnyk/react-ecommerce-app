@@ -1,0 +1,14 @@
+@import "../../styles/variables";
+
+.navbar {
+	padding: 15px 0;
+	border-bottom: 1px solid $primary-color-d;
+
+	&__contacts {
+		gap: 33px;
+	}
+
+	&__nav {
+		gap: 38px;
+	}
+}

@@ -1,0 +1,48 @@
+@import "../../styles/variables";
+
+.search {
+	background-color: $primary-color-h;
+	border: 1px solid $primary-color-d;
+	border-radius: 12px;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	max-width: 500px;
+
+	&__form {
+		background: transparent;
+		padding: 0 10px;
+		display: flex;
+		align-items: center;
+	}
+
+	.icon {
+		display: flex;
+	}
+
+	.vertical-devider {
+		border: 1px solid $primary-color-d;
+		margin: 0 12px;
+		display: block;
+		height: 20px;
+		background-color: $primary-color-d;
+		align-self: center;
+	}
+
+	input, select {
+		padding: 10px 0;
+		width: 100%;
+	}
+
+	select {
+		flex-basis: 50%;
+	}
+
+	input {
+		font-family: $primary-font, sans-serif;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 1.4rem;
+		line-height: 19px;
+	}
+}
