@@ -1,0 +1,46 @@
+@import "../../styles/variables";
+
+.button {
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+	border: 0;
+	font-family: $secondary-font;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 1.5rem;
+	line-height: 22px;
+}
+
+.button.large {
+	padding: 16.5px 48px;
+
+}
+
+.button.medium {
+  padding: 12.5px 16px;
+}
+
+.button.small {
+	padding: 6.5px 12px;
+}
+
+.button.outlined {
+  border: 2px solid $secondary-color-c;
+}
+
+.button.filled {
+	background-color: $secondary-color;
+	color: #ffffff;
+}
+
+.button.simple {
+	background-color: transparent;
+	color: $primary-color;
+	border: none;
+}
+
+.button.bright {
+	background-color: $primary-color-f;
+}

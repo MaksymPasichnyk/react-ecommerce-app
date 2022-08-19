@@ -1,0 +1,30 @@
+@import "../../styles/variables";
+
+.banner {
+	width: 100%;
+	max-width: 420px;
+	padding: 33px;
+	background-color: $secondary-color-e;
+	background-image: url("../../assets/banner-bg.png");
+	border-radius: 12px;
+
+	&__inner {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		height: 100%;
+	}
+
+	&__subtitle {
+		color: $secondary-color;
+		margin-bottom: 8px;
+	}
+
+	&__title {
+		color: $primary-color;
+	}
+
+	button {
+		align-self: flex-start;
+	}
+}

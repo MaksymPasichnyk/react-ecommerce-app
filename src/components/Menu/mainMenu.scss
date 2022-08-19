@@ -1,12 +1,23 @@
+@import "../../styles/variables";
+
 .main-menu {
+	padding: 16px 0 16px 45px;
+	background-color: $primary-color;
+	color: #ffffff;
+
 	&__list {
 		display: flex;
+		flex-wrap: wrap;
 		gap: 40px;
 	}
 
 	&__item {
 		display: flex;
 		align-items: center;
+	}
+
+	&__link {
+		cursor: pointer;
 	}
 
 	svg {
