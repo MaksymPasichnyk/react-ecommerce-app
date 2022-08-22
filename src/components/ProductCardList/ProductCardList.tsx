@@ -7,7 +7,6 @@ const ProductCardList = () => {
       <ProductCard />
 			<ProductCard />
 			<ProductCard />
-			<ProductCard />
     </div>
   );
 };

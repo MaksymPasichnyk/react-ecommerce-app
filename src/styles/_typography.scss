@@ -52,6 +52,16 @@ h6 {
 	font-weight: 600;
 }
 
+figcaption {
+	font-family: $secondary-font;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 1.2rem;
+	line-height: 18px;
+	text-align: center;
+	color: $primary-color-c;
+}
+
 input, select {
 	font-family: $secondary-font;
 	font-style: normal;
@@ -60,7 +70,7 @@ input, select {
 	line-height: 22px;
 }
 
-p {
+p,  {
 	font-weight: 400;
 	font-size: 1.2rem;
 	line-height: 16px;

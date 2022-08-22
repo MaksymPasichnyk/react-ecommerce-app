@@ -1,0 +1,51 @@
+@import "../../styles/variables";
+
+.blog-post {
+	width: 270px;
+
+	&__img {
+		width: 270px;
+		height: 180px;
+		background-color: grey;
+		border-radius: 12px;
+		margin-bottom: 24px;
+	}
+
+	&__text {
+		font-family: $secondary-font;
+		font-weight: 600;
+		font-size: 2.2rem;
+		line-height: 33px;
+		margin-top: 8px;
+		margin-bottom: 16px;
+	}
+
+	&__author-info {
+		display: flex;
+		gap: 16px;
+		font-size: 12px;
+
+		h6 {
+			font-weight: normal;
+		}
+	}
+}
+
+.blog-post.small {
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	width: auto;
+	gap: 24px;
+
+	.blog-post__img {
+		width: 96px;
+		height: 96px;
+	}
+
+	.blog-post__text {
+		font-size: 1.5rem;
+		line-height: 22px;
+		margin-bottom: 16px;
+	}
+}

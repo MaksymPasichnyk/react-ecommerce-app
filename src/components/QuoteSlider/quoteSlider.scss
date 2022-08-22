@@ -1,0 +1,12 @@
+// Import css files
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+.quote-slider {
+	width: 100%;
+
+	.slick-prev:before,
+	.slick-next:before {
+		color: black;
+	}
+}
