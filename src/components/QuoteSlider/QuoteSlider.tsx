@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import "./quoteSlider.scss";
 import Quote from "../Quote/Quote";
-import Heading from "../Heading/Heading";
+import SectionHeading from "../SectionHeading/SectionHeading";
 
 const QuoteSlider = () => {
   const settings = {
@@ -17,7 +17,7 @@ const QuoteSlider = () => {
   };
   return (
     <div className="quote-slider">
-			<Heading title="Section Headline" />
+			<SectionHeading title="Section Headline" />
       <Slider {...settings}>
         <div>
           <Quote />

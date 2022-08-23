@@ -1,11 +1,11 @@
-import "./container.scss";
+import "./layout.scss";
 
 type Props = {
 	children: JSX.Element|JSX.Element[],
 }
 
-const Container = ({ children }: Props) => {
+const Layout = ({ children }: Props) => {
   return <div className="container">{children}</div>;
 };
 
-export default Container;
+export default Layout;

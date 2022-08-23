@@ -8,35 +8,42 @@
   font-size: 1.2rem;
   line-height: 16px;
   color: $secondary-color;
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .text {
-	font-size: 1.2rem;
-	line-height: 16px;
+  font-size: 1.2rem;
+  line-height: 16px;
 }
 
 .flex {
-	display: flex;
-	flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .justify-between {
-	justify-content: space-between;
+  justify-content: space-between;
 }
 
 .flex-center {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 input,
 select {
-	background-color: transparent;
-	border: none;
+  background-color: transparent;
+  border: none;
 
-	&:focus-visible {
-		outline: none;
-	}
+  &:focus-visible {
+    outline: none;
+  }
+}
+
+.green-bage {
+  background-color: $secondary-color-e;
+  color: $secondary-color;
+  padding: 0 8px;
+  border-radius: 12px;
 }

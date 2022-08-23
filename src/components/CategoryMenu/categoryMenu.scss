@@ -1,5 +1,7 @@
 .category-menu {
-	width: 250px;
+	min-width: 190px;
+	flex: 0 1 190px;
+
 
 	&__title {
 		margin-bottom: 0.9em;

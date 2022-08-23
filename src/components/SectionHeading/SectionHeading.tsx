@@ -1,12 +1,12 @@
 import Button from "../Button/Button";
-import "./heading.scss";
+import "./sectionHeading.scss";
 
 type Props = {
 	title: string,
 	btnTitle: string,
 }
 
-const Heading = ({ title, btnTitle }: Props) => {
+const SectionHeading = ({ title, btnTitle }: Props) => {
   return (
     <div className="heading-bar">
       <h4 className="heading-bar__title">{title}</h4>
@@ -15,4 +15,4 @@ const Heading = ({ title, btnTitle }: Props) => {
   );
 };
 
-export default Heading
+export default SectionHeading

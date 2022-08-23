@@ -1,0 +1,22 @@
+@import "../../../styles/variables";
+
+.breadcrumbs {
+	&__list {
+		display: flex;
+	}
+	
+	.link {
+		color: $primary-color-d;
+		cursor: pointer;
+	}
+
+	.link.active {
+		color: $primary-color;
+	}
+
+	.breadcrumbs-slash {
+		margin: 0 8px;
+		display: inline-block;
+		color: $primary-color-d;
+	}
+}

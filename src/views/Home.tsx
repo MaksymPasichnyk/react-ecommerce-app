@@ -13,16 +13,12 @@ function Home() {
     <>
       <MainMenu />
       <Section>
-        <SectionColumn>
           <CategoryMenu />
-        </SectionColumn>
         <Banner />
         <Banner />
       </Section>
       <Section>
-        <SectionColumn>
           <CategoryMenu />
-        </SectionColumn>
         <ProductCardList />
       </Section>
       <Section>

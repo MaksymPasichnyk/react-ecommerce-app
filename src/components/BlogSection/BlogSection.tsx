@@ -1,5 +1,5 @@
 import FeaturePost from "../FeaturePost/FeaturePost";
-import Heading from "../Heading/Heading";
+import SectionHeading from "../SectionHeading/SectionHeading";
 import "./blogSection.scss";
 import BlogPost from "../BlogPost/BlogPost";
 import BlogPostList from "../BlogPostList/BlogPostList";
@@ -7,7 +7,7 @@ import BlogPostList from "../BlogPostList/BlogPostList";
 const BlogSection = () => {
   return (
     <div className="blog-section">
-      <Heading title="Read our blog posts" btnTitle="Go to blog" />
+      <SectionHeading title="Read our blog posts" btnTitle="Go to blog" />
       <div className="blog-section__body">
         <FeaturePost />
         <BlogPost />
