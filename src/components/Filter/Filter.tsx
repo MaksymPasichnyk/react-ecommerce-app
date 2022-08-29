@@ -4,6 +4,8 @@ import fourStarsImg from "../../assets/flter-icons/four-stars.png";
 import threeStarsImg from "../../assets/flter-icons/three-stars.png";
 import twoStarsImg from "../../assets/flter-icons/two-stars.png";
 import oneStarImg from "../../assets/flter-icons/one-star.png";
+import MultiRangeSlider from "../MultiRangeSlider/MultiRangeSlider";
+import Button from "../Button/Button";
 
 const Filter = () => {
   return (
@@ -111,21 +113,25 @@ const Filter = () => {
 
         <div className="price">
           <h4>Price</h4>
-          <input type="range" />
-          <div className="output-container">
-            <div className="min">
-              <h6>Min</h6>
-              <div className="min-output">
-                <span>0</span>
-              </div>
-            </div>
-            <div className="min">
-              <h6>Min</h6>
-              <div className="min-output">
-                <span>0</span>
-              </div>
-            </div>
-          </div>
+          <MultiRangeSlider
+            min={1}
+            max={1000}
+            onChange={({ min, max }) =>
+              console.log(`min = ${min}, max = ${max}`)
+            }
+          />
+        </div>
+        <div className="filter__actions">
+          <Button
+						text="Apply"
+						type="submit"
+						styleName={["medium", "outlined", "filled"]}
+					/>
+					<Button 
+						text="Reset"
+						type="reset"
+						styleName={["medium", "simple"]}
+					/>
         </div>
       </form>
     </div>

@@ -47,3 +47,14 @@ select {
   padding: 0 8px;
   border-radius: 12px;
 }
+
+.row {
+  display: flex;
+  gap: 32px;
+}
+
+.column {
+  &:nth-child(2) {
+    flex: 0 1 100%;
+  }
+}

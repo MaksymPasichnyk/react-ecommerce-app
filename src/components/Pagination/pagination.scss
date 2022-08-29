@@ -1,0 +1,35 @@
+@import "../../styles/variables";
+
+.pagination {
+  margin: 16px 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.page {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+
+	&__title {
+		font-family: $primary-font;
+		color: $primary-color-c;
+		font-weight: normal;
+		line-height: 16px;
+	}
+
+	&__list {
+		display: flex;
+		gap: 8px;
+	}
+
+	&__item {
+		cursor: pointer;
+	}
+
+  &__item.active {
+    .page__link {
+      color: green;
+    }
+  }
+}

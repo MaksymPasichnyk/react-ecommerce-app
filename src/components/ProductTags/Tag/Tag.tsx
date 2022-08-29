@@ -1,7 +1,7 @@
 import "./tag.scss";
 
 type Props = {
-	title: string
+	title: string,
 }
 
 const Tag = ({ title }: Props) => {

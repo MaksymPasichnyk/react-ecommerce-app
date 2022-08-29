@@ -1,12 +1,16 @@
 import "./productCardList.scss";
 import ProductCard from "../ProductCard/ProductCard";
 
-const ProductCardList = () => {
+interface Props {
+	elems: number[],
+}
+
+const ProductCardList = ({elems}: Props) => {
   return (
     <div className="products">
-      <ProductCard />
-			<ProductCard />
-			<ProductCard />
+			{elems.map(elem => {
+				return <ProductCard key={elem} />
+			})}
     </div>
   );
 };

@@ -1,6 +1,7 @@
 import "./button.scss";
 import { MdKeyboardArrowLeft } from "react-icons/md";
 import { MdKeyboardArrowRight } from "react-icons/md";
+import { MdKeyboardArrowDown } from "react-icons/md";
 
 type Props = {
   text: string;
@@ -11,9 +12,10 @@ type Props = {
 const Button = ({ text, styleName, type }: Props) => {
   return (
     <button className={`button ${styleName.join(" ")}`}>
-      {type === "left" && <MdKeyboardArrowLeft />}
+      {type === "leftArrowBefore" && <MdKeyboardArrowLeft />}
       {text}
-      {type === "right" && <MdKeyboardArrowRight />}
+      {type === "rightArrowAfter" && <MdKeyboardArrowRight />}
+			{type === "downArrowAfter" && <MdKeyboardArrowDown />}
     </button>
   );
 };
